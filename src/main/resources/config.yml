@@ -1,0 +1,68 @@
+# General
+help-command: "Available commands: %c"
+invalid-player: "The player %p is not online!"
+must-be-a-number: "The value must be a number!"
+next-page-item-name: "Next Page"
+operation-cancelled: "Operation cancelled."
+player-only: "You must be a player in order to perform this command!"
+previous-page-item-name: "Previous Page"
+
+# me.dannly.dungeon.Dungeon
+actions-icon: "Icon"
+actions-inventory: "Actions"
+actions-delete-confirmation-message: "Are you sure you want to delete this dungeon? Type \"yes\" to confirm it or anything else to cancel."
+actions-delete-item-name: "Delete"
+actions-dungeon-deleted: "me.dannly.dungeon.Dungeon deleted!"
+actions-minimum-party-size-name: "Minimum Party Size"
+actions-maximum-party-size-name: "Maximum Party Size"
+actions-spawnlocation: "Spawn"
+actions-duration-item-name: "Maximum dungeon duration"
+actions-duration-message: "Enter now the value for the duration."
+actions-duration-success: "Successfully updated the duration value!"
+dungeon-create-name-in-use: "That dungeon name is already in use!"
+dungeon-end-countdown-message: "The dungeon is over! Counting %t second(s) to teleport."
+dungeon-end-countdown-seconds: 20
+dungeon-entity-activate-ai-distance: 5
+dungeon-entity-block-respawn-distance: 15
+dungeon-icon-set: "Icon set!"
+dungeon-name-empty: "Invalid name!"
+dungeon-named: "Successfully created Dungeon %n!"
+dungeon-not-found: "me.dannly.dungeon.Dungeon not found."
+dungeon-party-size-updated: "Dungeon party size updated!"
+dungeon-spawn-reset: "Spawnpoints reset!"
+dungeon-spawn-set: "Spawnpoint set!"
+dungeon-time-message: "%t minutes left to clear the dungeon!"
+entities-add: "Add"
+entities-icon: "Entities"
+entities-inventory-title: "Entities"
+entity-added: "Entity added!"
+entity-add-setup-spawnpoint: "Set a spawnpoint first!"
+entity-command-inventory-item: "Command"
+entity-command-level-prompt: "Please enter the desired entity level."
+entity-command-type-prompt: "Please enter the desired entity type."
+entity-command-success: "Successfully updated the entity's command!"
+entity-customization-title: "Customize Entity"
+entity-delete-item: "Delete"
+entity-deleted: "Entity deleted!"
+entity-rename-item: "Rename"
+entity-rename-prompt: "Please enter the desired named for the entity."
+entity-rename-success: "Entity successfully renamed to %n!"
+entity-spawnpoint-already-used: "That spawnpoint is already occupied!"
+entity-spawnpoint-dungeon-spawnpoint-not-set: "The dungeon's spawnpoint has not been set yet!"
+entity-spawnpoint-item: "Spawnpoint"
+entity-spawnpoint-set-message: "Spawnpoint set!"
+in-dungeon-cancel-command: "You can't execute commands while there are players in your party in a dungeon!"
+items-inventory-title: "Items"
+no-boss-message: "Failed to enter dungeon: boss not set."
+no-spawn-set-message: "Failed to enter dungeon: all dungeons instances are occupied."
+not-enough-players-message: "Failed to enter dungeon: not enough players in party."
+too-many-players-message: "Failed to enter dungeon: too many players in party."
+
+# Command execution list
+dungeon-start:
+  -
+dungeon-end:
+  -
+
+  # Permissions
+dungeon-manage: "dungeon.manage"

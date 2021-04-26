@@ -1,0 +1,9 @@
+name: DungeonsMMO
+version: 1.0
+api-version: 1.13
+main: me.dannly.dungeonsmmo.Main
+depend:
+  - PartyMMO
+commands:
+  dungeon:
+    description: Dungeons!
